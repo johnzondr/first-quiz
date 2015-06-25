@@ -7,7 +7,7 @@ class SentencesController < ApplicationController
 	private
 
 	def sentence_params
-		params.require(:sentence).permit(:words)
+		params.require(:sentence).permit(:word)
 	end
 
 end
