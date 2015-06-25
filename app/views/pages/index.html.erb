@@ -1,1 +1,7 @@
 <h1 style="color: red">Quiz numero uno<h1>
+
+<%= simple_form_for Sentence.new do |f| %>
+	<%= f.input :words %>
+	<%= f.submit "Contribute!" %>
+<% end %>
+
